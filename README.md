@@ -1,1 +1,2 @@
 # cube
+Cube is a lightweight orchestrator service from the book "Build an Orchestrator in Go (From Scratch) written Tim Boring. Used this book as a little side project to get a better understanding how orchestrator services like k8s or nomade work under the hood.
