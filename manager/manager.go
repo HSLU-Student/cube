@@ -17,7 +17,7 @@ type Manager struct {
 	TaskWorkerMap  map[uuid.UUID]string
 }
 
-func (m *Manager) selectWorker() {
+func (m *Manager) SelectWorker() {
 	fmt.Println("I will select an appropriate worker")
 }
 

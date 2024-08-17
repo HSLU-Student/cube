@@ -15,6 +15,10 @@ type Worker struct {
 	TaskCount int
 }
 
+func (w *Worker) RunTask() {
+	fmt.Println("I will start or stop a task")
+}
+
 func (w *Worker) CollectStats() {
 	fmt.Println("I will collect stats")
 }
